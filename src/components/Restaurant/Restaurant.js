@@ -13,7 +13,7 @@ const Restaurant = () => {
         .then(data => setMeals(data.meals));
     }, [searchText])
 
-    const searchFood = e =>{
+    const searchFood = e  =>{
         setSearchText(e.target.value);
     }
     return (
